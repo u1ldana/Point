@@ -1,4 +1,4 @@
-package Point;
+package com.exlamle;
 
 public class Point {
     private double x;
