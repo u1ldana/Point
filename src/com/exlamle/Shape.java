@@ -1,4 +1,4 @@
-package com;
+package com.exlamle;
 
 import com.exlamle.Point;
 
