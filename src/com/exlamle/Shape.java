@@ -4,11 +4,11 @@ import com.exlamle.Point;
 
 public class Shape {
     private Point[] points;
-
+// Constructor to initialize
     public Shape(Point[] points) {
         this.points = points;
     }
-
+     // Method to calculate the perimeter
     public double perimeter() {
         double perimeter = 0;
         int numPoints = points.length;
@@ -20,7 +20,7 @@ public class Shape {
 
         return perimeter;
     }
-
+// Method for determining the length of the longest side
     public double longestSide() {
         double maxLength = 0;
 
@@ -35,7 +35,7 @@ public class Shape {
 
         return maxLength;
     }
-
+ // Method to calculate the average length
     public double averageSide() {
         double totalLength = 0;
         int numSides = points.length;
